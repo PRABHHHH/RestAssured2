@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14667" started-at="2022-03-16T17:30:09Z" finished-at="2022-03-16T17:30:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14667" started-at="2022-03-16T17:30:09Z" finished-at="2022-03-16T17:30:24Z">
+      <class name="RestTestig.Trello">
+        <test-method status="PASS" signature="createBoard()[pri:0, instance:RestTestig.Trello@275710fc]" name="createBoard" duration-ms="5439" started-at="2022-03-16T23:00:09Z" finished-at="2022-03-16T23:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method status="PASS" signature="getBoard()[pri:1, instance:RestTestig.Trello@275710fc]" name="getBoard" duration-ms="851" started-at="2022-03-16T23:00:19Z" finished-at="2022-03-16T23:00:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method status="PASS" signature="DeleteBoard()[pri:2, instance:RestTestig.Trello@275710fc]" name="DeleteBoard" duration-ms="1217" started-at="2022-03-16T23:00:23Z" finished-at="2022-03-16T23:00:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBoard -->
+      </class> <!-- RestTestig.Trello -->
+      <class name="RestTestig.Ecommerce">
+        <test-method status="PASS" signature="Login()[pri:1, instance:RestTestig.Ecommerce@55040f2f]" name="Login" duration-ms="4451" started-at="2022-03-16T23:00:15Z" finished-at="2022-03-16T23:00:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="GetAllUser()[pri:2, instance:RestTestig.Ecommerce@55040f2f]" name="GetAllUser" duration-ms="2643" started-at="2022-03-16T23:00:20Z" finished-at="2022-03-16T23:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetAllUser -->
+      </class> <!-- RestTestig.Ecommerce -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
